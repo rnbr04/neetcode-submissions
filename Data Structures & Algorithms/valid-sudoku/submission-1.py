@@ -1,3 +1,6 @@
+# uses the concept of dictionary of sets to check duplicate in a particular row, column or a sub-box
+# absolute position for an element is mapped to its sub-box position by floor division with 3
+
 from collections import defaultdict
 
 class Solution:
