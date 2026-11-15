@@ -1,3 +1,5 @@
+# why do double iteration when single iteration can do the hashing for both strings
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         len_s = len(s)
